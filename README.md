@@ -28,7 +28,7 @@ python text_splitter.py
 ```
 
 ### Example
-By default, the script looks for input.txt in the same directory and splits the text into chunks of up to 30,000 characters. The chunks are saved in the `output_chunks` directory.
+By default, the script looks for `input.txt` in the same directory and splits the text into chunks of up to 30,000 characters. The chunks are saved in the `output_chunks` directory.
 
 You can modify the `input.txt` file and `output_dir` variables in the script to use different input and output paths.
 
