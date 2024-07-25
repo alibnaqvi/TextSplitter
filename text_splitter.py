@@ -34,7 +34,7 @@ def split_text_file(input_file, output_dir, max_length=30000):
 
     print(f'Split text into {len(chunks)} files and saved to {output_dir}')
 
-if __name__ == "__main__":
+def main():
     input_file = 'input.txt'  # Replace with your input file path
     output_dir = 'output_chunks'  # Replace with your desired output directory
     split_text_file(input_file, output_dir)
